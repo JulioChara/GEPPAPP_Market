@@ -125,7 +125,7 @@ class _ProductosEditarPageState extends State<ProductosEditarPage> {
     setState(() {
       _selectedFamilia = selectModel;
       _savemodel.tiposFamiliaFk = selectModel!.tipoId;
-      ActualizadoresTipo(1, selectModel!.tipoDescripcion!);
+      ActualizadoresTipo(1, selectModel.tipoDescripcion!);
     });
   }
   onChangeDropdownTiposTipo(TiposModel? selectModel) {
@@ -144,7 +144,7 @@ class _ProductosEditarPageState extends State<ProductosEditarPage> {
     setState(() {
       _selectedTipoEstante = selectModel;
       _savemodel.tipoEstanteFk = selectModel!.tipoId;
-      ActualizadoresTipo(2, selectModel!.tipoDescripcion!);
+      ActualizadoresTipo(2, selectModel.tipoDescripcion!);
     });
   }
   onChangeDropdownTiposSubEstante(TiposModel? selectModel) {

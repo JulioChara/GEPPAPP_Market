@@ -52,12 +52,12 @@ class SPGlobal {
 //     _prefs.setString("colorA", value);
 //   }
 //
-  Color get colorA => Color(_prefs.getInt('color') ?? Colors.green.value);
+  Color get colorA => Color(_prefs.getInt('color') ?? Colors.black.value);
   set colorA(Color value) {
     //_prefs.getInt("colorA", value);
   }
 
-  Color get colorB => Color(_prefs.getInt('color') ?? Colors.redAccent.value);
+  Color get colorB => Color(_prefs.getInt('color') ?? Colors.red.value);
   set colorB(Color value) {
     //_prefs.getInt("colorA", value);
   }
